@@ -1,0 +1,653 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+body{
+        overflow-x: hidden;
+     }
+
+html {
+        font-size: 62.5%;
+}
+
+
+.header{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 30px;
+        background-image: url(img/header.jpg);
+        width: 100%;
+        background-size: cover;
+        border-width: 0.5px;
+        border-style: solid;
+        border-color: black;
+}
+
+
+.logo {     
+        width:100%;
+        height:100%;
+        border-radius: 50%;
+}
+
+
+h1 {  
+    color:white;
+    display: inline-block;
+    font-size: 35rem;
+    font-family: 'Zen Tokyo Zoo';
+    text-shadow:    
+                1px 1px 1px  #919191,                   
+                1px 2px 1px  #919191,
+                1px 3px 1px  #919191,
+                1px 4px 1px  #919191,
+                1px 5px 1px  #919191,
+                1px 6px 1px  #919191,
+                1px 7px 1px  #919191,
+                1px 8px 1px  #919191,
+                1px 10px 1px #919191;  
+}
+
+h1:hover { color:  #efb810;}
+
+
+.tituloPrincipal { display:flex;
+                justify-content: center;  
+                align-items: center;}
+
+
+
+.menu li { 
+        font-size: 15rem;
+        color: white;
+        display: inline-block;
+        padding: 5rem;
+        background-image: url(img/nubes.jpg);
+        border-radius: 25%;
+        border-width: 3px;
+        border-color: black;
+        border-style: double;
+        box-shadow: -3px -3px 15px white; 
+        font-family:'Zen Tokyo Zoo';
+        margin-left: 10rem;
+}
+
+.menu a { 
+        text-decoration: none;
+        color: white;
+}
+
+
+.nav { 
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+
+/* COMIENZA PROGRAMACION DEL MAIN*/
+
+.partemedia { 
+        display:grid;
+        grid-template-columns: 1fr 4fr 1fr;
+}
+
+
+.margenes {
+        background-color:black;
+}
+
+
+.curiosidades { display:grid;
+                grid-template-columns: 1fr;}
+
+
+.tablaBeneficios {color: white; 
+                border:white 5px solid;
+                border-collapse: collapse;
+                width: 60%;
+                height: 70%;
+                font-size: 15rem;
+                margin-left: 10%;
+}
+
+.beneficios { display:grid;
+                grid-template-columns: 1fr;}
+
+tr td {
+        border:white 5px solid;
+        }
+
+
+
+
+
+
+.partemedia { 
+                width: 100%;
+                text-align: center;
+                background-image: url(img/astronauta2.jpg);
+                background-size: cover;
+                border-width: 0.5px;
+                border-style: solid;
+                border-color: black;
+}
+
+.partemedia h2 { 
+                font-size: 16rem;
+                text-align: left;
+                padding: 2rem;
+                color: white;
+                font-family: 'Zen Tokyo Zoo';
+                text-shadow:    1px 1px 1px  #919191,                   
+                                1px 2px 1px  #919191,
+                                1px 3px 1px  #919191,
+                                1px 4px 1px  #919191,
+                                1px 5px 1px  #919191,
+                                1px 6px 1px  #919191,
+                                1px 7px 1px  #919191;
+}
+
+
+
+
+.partemedia h3 { 
+                font-size: 14rem;
+                padding: 3rem;
+                
+                color: white;
+                font-family: 'Zen Tokyo Zoo';
+                text-shadow:    1px 1px 1px  #919191,                   
+                                1px 2px 1px  #919191,
+                                1px 3px 1px  #919191,
+                                1px 4px 1px  #919191,
+                                1px 5px 1px  #919191,
+                                1px 6px 1px  #919191,
+                                1px 7px 1px  #919191;
+}
+
+.partemedia h4 { 
+                font-size: 12rem;
+                padding:3rem;
+                color: white;
+                font-family: 'Zen Tokyo Zoo';
+                text-shadow:    1px 1px 1px  #919191,                   
+                                1px 2px 1px  #919191,
+                                1px 3px 1px  #919191,
+                                1px 4px 1px  #919191,
+                                1px 5px 1px  #919191,
+                                1px 6px 1px  #919191,
+                                1px 7px 1px  #919191;
+}
+
+.partemedia p { 
+                font-size: 10rem;
+                text-align: justify;
+                padding: 3rem;
+                margin: 5rem;
+                text-indent: 4rem;
+                color: white;
+                font-family: 'Zen Tokyo Zoo';
+                font-weight: bold;
+                text-shadow:    1px 1px 1px  #919191,                   
+                                1px 2px 1px  #919191,
+                                1px 3px 1px  #919191,
+                                1px 4px 1px  #919191,
+                                1px 5px 1px  #919191,
+                                1px 6px 1px  #919191,
+                                1px 7px 1px  #919191;            
+}
+
+
+.imagenMedia{   display:grid;
+                grid-template-columns:  1fr 1fr; }
+
+
+
+
+.partemedia img {  
+                        margin: 0 auto;
+                        border-style: solid;
+                        border-radius: 10%;
+                        height: 70%;
+                        width: 70%;}
+
+
+
+/* INICIA PROGRAMACION DE FOOTER*/
+
+
+.pie { 
+        width: 100%;
+        border-width: 0.5px;
+        background-image: url(img/espacio.jpg);
+        border-style: solid;
+        border-color: black;
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+        background-size: cover;
+}
+
+
+
+.pie p {
+        font-family: 'Zen Tokyo Zoo';
+        font-weight: bold;
+        color:  white;
+        font-size: 12rem;
+        text-align: center;
+        padding:2rem;
+        text-shadow:    1px 1px 1px  #919191,                   
+                        1px 2px 1px  #919191,
+                        1px 3px 1px  #919191,
+                        1px 4px 1px  #919191,
+                        1px 5px 1px  #919191,
+                        1px 6px 1px  #919191,
+                        1px 7px 1px  #919191;
+} 
+
+
+
+.pie img {  
+        height: 100%;
+        width:100%;
+        padding: 1rem;    
+}
+
+
+
+.iconsfooter { 
+                display:flex;
+                justify-content: center;
+
+}
+
+.iconsfooter img { height:20rem;
+                height:20rem;
+                padding: 6rem;}
+
+
+
+
+
+/*PROGRAMACION MEDIA QUERYS*/
+
+
+@media only screen and (min-width:250px) and (max-width:330px){
+                .header{
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        grid-template-rows: 1fr 1fr;
+                        grid-gap: 10px;
+                        background-image: url(img/header.jpg);
+                        width: 100%;
+                        background-size: cover;
+                        height: 26rem;
+}
+
+                .menu li { 
+                        font-size: 1rem;
+                        display: block;
+                        padding: 0.5rem;
+                        border-radius: 0%;
+                        margin: 1rem;
+}
+
+                .divDeLogo {
+                        display:none;
+}
+
+                .margenes { 
+                        display:none;
+}
+
+                .tituloPrincipal h1 { 
+                        font-size: 3rem;
+                        text-shadow: none;  
+}
+
+
+                .partemedia { 
+                        display:grid;
+                        grid-template-columns:  1fr;
+                        background-size: cover;
+}
+
+                .partemedia h2 {
+                        font-size: 2rem;
+                        text-shadow: none;
+                        padding: 1rem; 
+}
+                .partemedia h3 { 
+                        font-size: 1.5rem;
+                        text-shadow: none;
+                        padding: 1rem; 
+}
+
+                .partemedia h4 { 
+                        font-size: 1.5rem;
+                        text-shadow: none; 
+                        padding: 2%;
+}
+
+                .partemedia p{ 
+                        font-size: 1rem;
+                        text-shadow: none;
+                        padding: 1rem; 
+}
+
+                .partemedia img {  
+                        margin: 0 auto;
+                        border-style: solid;
+                        border-radius: 10%;
+                        height: 70%;
+                        width: 70%;
+}
+
+                .imagenMedia{   
+                        display:grid;
+                        grid-template-columns: 1fr;
+                        grid-template-rows: 1fr 1fr; 
+                        align-items: center;
+}
+
+
+                .pie p   {
+                        font-size: 1rem;
+                        text-shadow: none; 
+}
+
+                .pie img {  
+                        height: 2rem;
+                        width:2rem;
+                        padding: 1rem;    
+}
+
+}
+
+@media only screen and (min-width:331px) and (max-width:900px){
+        .header{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-gap: 10px;
+                background-image: url(img/header.jpg);
+                width: 100%;
+                background-size: cover;
+                height: 26rem;
+}
+
+        .menu li { 
+                font-size: 1rem;
+                display: block;
+                padding: 0.5rem;
+                border-radius: 0%;
+                margin: 1rem;
+}
+
+        .divDeLogo {
+                display:none;
+}
+
+        .margenes { 
+                display:none;
+}
+
+        .tituloPrincipal h1 { 
+                font-size: 3rem;
+                text-shadow: none;  
+}
+
+
+        .partemedia { 
+                display:grid;
+                grid-template-columns: 1fr;
+                background-size: cover;
+}
+
+        .partemedia h2 {
+                font-size: 2rem;
+                text-shadow: none;
+                padding: 1rem; 
+}
+        .partemedia h3 { 
+                font-size: 1.5rem;
+                text-shadow: none;
+                padding: 1rem; 
+}
+
+        .partemedia h4 { 
+                font-size: 1.5rem;
+                text-shadow: none; 
+                padding: 2%;
+}
+
+        .partemedia p{ 
+                font-size: 1rem;
+                text-shadow: none;
+                padding: 1rem; 
+}
+
+        .partemedia img {  
+                margin: 0 auto;
+                border-style: solid;
+                border-radius: 10%;
+                height: 70%;
+                width: 70%;
+}
+
+        .imagenMedia{   
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr ; 
+                align-items: center;
+}
+
+
+        .pie p   {
+                font-size: 1rem;
+                text-shadow: none; 
+}
+
+        .pie img {  
+                height: 2rem;
+                width:2rem;
+                padding: 1rem;    
+}
+
+}
+
+@media only screen and (min-width:901px) and (max-width:1200px){
+        .header{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+                grid-gap: 10px;
+                background-image: url(img/header.jpg);
+                width: 100%;
+                background-size: cover;
+                height: 25rem;
+                padding:5rem;
+}
+
+        .menu li { 
+                font-size: 1.5rem;
+                display: inline-block;
+                padding: 0.5rem;
+                border-radius: 0%;
+                margin: 1rem;
+}
+
+        .divDeLogo {
+                display:flex;
+}
+
+
+        .tituloPrincipal h1 { 
+                font-size: 4rem;
+                text-shadow: none;  
+}
+
+        .tituloPrincipal { display:flex;
+                        justify-content: center;
+                        align-items: center;}
+
+
+        .partemedia { 
+                display:grid;
+                grid-template-columns: 0.5fr 2fr 0.5fr;
+                background-size: cover;
+}
+
+        .partemedia h2 {
+                font-size: 2rem;
+                text-shadow: none;
+                padding: 1rem; 
+}
+        .partemedia h3 { 
+                font-size: 1.5rem;
+                text-shadow: none;
+                padding: 1rem; 
+}
+
+        .partemedia h4 { 
+                font-size: 1.5rem;
+                text-shadow: none; 
+                padding: 2%;
+}
+
+        .partemedia p{ 
+                font-size: 1rem;
+                text-shadow: none;
+}
+
+        .partemedia img {  
+                margin: 0 auto;
+                border-style: solid;
+                border-radius: 10%;
+                height: 70%;
+                width: 70%;
+}
+
+        .imagenMedia{   
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                grid-template-rows: 1fr ; 
+                align-items: center;
+}
+
+
+        .pie p   {
+                font-size: 1rem;
+                text-shadow: none; 
+}
+
+        .pie img {  
+                height: 2rem;
+                width:2rem;
+                padding: 1rem;    
+}
+
+}
+
+
+@media only screen and (min-width:1201px) and (max-width:1632px){
+        .header{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+                grid-gap: 10px;
+                background-image: url(img/header.jpg);
+                width: 100%;
+                background-size: cover;
+                height: 36rem;
+                padding-bottom: 2rem;
+}
+
+        .menu li { 
+                font-size: 1.5rem;
+                display: inline-block;
+                padding: 0.5rem;
+                border-radius: 0%;
+                margin: 1rem;
+}
+
+        .divDeLogo {
+                display:flex;
+}
+
+
+        .tituloPrincipal h1 { 
+                font-size: 4rem;
+                text-shadow: none;  
+}
+
+        .tituloPrincipal { display:flex;
+                        justify-content: center;
+                        align-items: center;}
+
+
+        .partemedia { 
+                display:grid;
+                grid-template-columns: 1fr 3fr 1fr;
+                background-size: cover;
+}
+
+        .partemedia h2 {
+                font-size: 2rem;
+                text-shadow: none;
+                padding: 1rem; 
+}
+        .partemedia h3 { 
+                font-size: 1.5rem;
+                text-shadow: none;
+                padding: 1rem; 
+}
+
+        .partemedia h4 { 
+                font-size: 1.5rem;
+                text-shadow: none; 
+                padding: 2%;
+}
+
+        .partemedia p{ 
+                font-size: 1rem;
+                text-shadow: none;
+}
+
+        .partemedia img {  
+                margin: 0 auto;
+                border-style: solid;
+                border-radius: 10%;
+                height: 70%;
+                width: 70%;
+}
+
+        .imagenMedia{   
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                grid-template-rows: 1fr ; 
+                align-items: center;
+}
+
+
+        .pie p   {
+                font-size: 1rem;
+                text-shadow: none; 
+}
+
+        .pie img {  
+                height: 2rem;
+                width:2rem;
+                padding: 1rem;    
+}
+
+}
+
